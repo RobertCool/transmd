@@ -1,0 +1,37 @@
+{
+  "name": "transmd",
+  "version": "1.0.0",
+  "description":"an easy framework for nodejs to access http interface base on express",
+  "author" : "Guangzhou Minstone Software Ltd.,CO",
+  "license":"Apache Licence 2.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "files": [
+    "LICENSE",
+    "History.md",
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ],
+  "keywords": [
+    "framework",
+    "node",
+    "easy",
+    "http",
+    "json"
+  ],
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/RobertCool/transmd/issues"
+  }
+}
